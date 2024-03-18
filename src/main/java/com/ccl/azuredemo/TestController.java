@@ -1,10 +1,11 @@
 package com.ccl.azuredemo;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Configuration
+@Controller
 @RequestMapping("/test")
 public class TestController {
 
