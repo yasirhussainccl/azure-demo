@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Configuration
-@RequestMapping("")
+@RequestMapping("/test")
 public class TestController {
 
     public String getTestPage(Model model) {
